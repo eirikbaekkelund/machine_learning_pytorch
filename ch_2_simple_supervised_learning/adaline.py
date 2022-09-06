@@ -61,4 +61,7 @@ class AdalineGD:
         Return class label after unit step
         """
         return np.where(self.activation(self.net_input(X)) >= 0.5, 1,0)
+
+    def test(self):
+        pass
     
